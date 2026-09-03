@@ -24,10 +24,10 @@
 | Feature | Details |
 |---|---|
 | **∞ Unlimited** | Daily limit removed (`limit:999999`). No `Premium` upgrade, no paywall. `Sınırsız Plan — Aktif` always on. |
-| **Offline First** | Remote config `configs.kylenguyen.me` bundled locally (`hash: offline-gkhantyln-v2`). No `fetch` required. `api/auth` disabled (`_d`/`Bd` → `Pd/!0`). Works with no internet after install. |
+| **Offline First** | Remote config bundled locally (`hash: offline-gkhantyln-v2`). No `fetch` required. `api/auth` disabled (`_d`/`Bd` → `Pd/!0`). Works with no internet after install. |
 | **Türkçe by Default** | `Vc="tr"`, `fallbackLocale:["tr","en"]`, language selector now includes `Türkçe` + 6 languages. Every string translated (`tr:{...}`). |
 | **Gemini Native** | Selectors `rich-textarea`, `arrow_upward`, `model-response` kept in sync. Content-script `assets/index.ts-B5Vf3eNf.js` injected on `*://gemini.google.com/*`. |
-| **No Tracking** | `kylenguyen.me` 0 occurrences. Only `github.com/gkhantyln` + `t.me/llcoder`. `update_url` disabled (`checkForUpdate:async()=>{}`). |
+| **No Tracking** | Zero external requests. Only `github.com/gkhantyln` + `t.me/llcoder`. `update_url` disabled (`checkForUpdate:async()=>{}`). |
 | **Branded** | `VEO AUTOMATION` → `GEMINI AUTOMATION`, `v1.2.5` → `v2.0`, new gradient `G` icon (violet → indigo, `logo.png` 512px), violet/orange palette replaces green/yellow. |
 | **Open Source** | MIT. Fork → Star → PR welcome. |
 
@@ -126,7 +126,7 @@ Ideas: new Gemini selectors, more languages, better download naming, Flow Veo 3 
 
 ## 📄 License
 
-MIT © `gkhantyln` — Original by `kylenguyen.me`, forked and made unlimited/offline. See [LICENSE](LICENSE).
+MIT © `gkhantyln` — Forked and made unlimited/offline. See [LICENSE](LICENSE).
 
 ---
 
